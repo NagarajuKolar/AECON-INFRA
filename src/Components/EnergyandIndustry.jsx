@@ -1,13 +1,13 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
+import energy from '../assets/energy.png'
 
 function EnergyandIndustry() {
   return (
     <>
       <div className="prebid-page">
-        {/* Banner Section */}
         <div className="prebid-banner">
-          <img src={service2} alt="Energy and Industrial Services" />
+          <img src={energy} alt="Energy and Industrial Services" />
           <div className="banner-overlay"></div>
           <div className="banner-text">
             <h1>Energy & Industrial Services</h1>
@@ -17,7 +17,6 @@ function EnergyandIndustry() {
           </p>
         </div>
 
-        {/* Content Section */}
         <div className="prebid-content">
           <h2>Our Offerings</h2>
           <h4>
@@ -91,7 +90,6 @@ function EnergyandIndustry() {
             </div>
           </div>
 
-          {/* Why Choose Us */}
           <div className="why-choose-us">
             <h2>Why Choose Us</h2>
             <p>

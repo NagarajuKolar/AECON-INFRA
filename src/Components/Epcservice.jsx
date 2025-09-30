@@ -1,6 +1,12 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
-import Epc1 from '../assets/Epc1.png'
+import Epc from '../assets/Epc.png'
+import Epc1 from '../assets/epc1.png'
+import Epc2 from '../assets/epc2.png'
+import Epc3 from '../assets/epc3.png'
+import Epc4 from '../assets/epc4.png'
+import Epc5 from '../assets/epc5.png'
+import Epc6 from '../assets/epc6.png'
 import prebid1 from '../assets/prebid1.png'
 import service from '../assets/service.png'
 function Epcservice() {
@@ -8,7 +14,7 @@ function Epcservice() {
         <>
             <div className="prebid-page">
                 <div className="prebid-banner">
-                    <img src={service2} alt="" />
+                    <img src={Epc} alt="" />
                     <div className="banner-overlay"></div>
                     <div className="banner-text">
                         <h1>Project Execution & EPC Services</h1>
@@ -34,7 +40,7 @@ function Epcservice() {
                     </div>
 
                     <div className="prebid-section">
-                        <img src={Epc1} alt="Opportunity Identification" />
+                        <img src={Epc6} alt="Opportunity Identification" />
                         <div>
                             <h3>Supply Chain & Vendor Management</h3>
                             <p>
@@ -45,7 +51,7 @@ function Epcservice() {
                     </div>
 
                     <div className="prebid-section">
-                        <img src={Epc1} alt="JV & Partnerships" />
+                        <img src={Epc2} alt="JV & Partnerships" />
                         <div>
                             <h3>Civil & Industrial Works</h3>
                             <p>
@@ -56,7 +62,7 @@ function Epcservice() {
                     </div>
 
                     <div className="prebid-section">
-                        <img src={prebid1} alt="Costing & Estimation" />
+                        <img src={Epc3} alt="Costing & Estimation" />
                         <div>
                             <h3>Marine & Trenchless Works</h3>
                             <p>
@@ -66,7 +72,7 @@ function Epcservice() {
                     </div>
 
                     <div className="prebid-section">
-                        <img src={prebid1} alt="Pretender Services" />
+                        <img src={Epc4} alt="Pretender Services" />
                         <div>
                             <h3>Quality, Safety & Risk Management</h3>
                             <p>
@@ -76,7 +82,7 @@ function Epcservice() {
                     </div>
 
                     <div className="prebid-section">
-                        <img src={prebid1} alt="Risk Analysis" />
+                        <img src={Epc5} alt="Risk Analysis" />
                         <div>
                             <h3>Pre-Commissioning & Commissioning</h3>
                             <p>

@@ -13,6 +13,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  animation: growIn 1.4s ease forwards;
+  animation-delay: 0.2s;
 }
 
 .form-title {
@@ -66,8 +68,19 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    animation: growIn 1.2s ease forwards;
+  animation-delay: 0.6s;
 }
-
+@keyframes growIn {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 @media (max-width: 900px) {
   .contact-container {

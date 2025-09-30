@@ -7,7 +7,6 @@ function Sectors() {
         <>
             <div className="sectors-page">
 
-
                 <div className="prebid-banner">
                     <img src={sector} alt="" />
                     <div className="banner-text">
@@ -42,7 +41,7 @@ function Sectors() {
                 </section>
 
 
-                {/* CTA */}
+
                 <section className="sectors-cta">
                     <h2>Looking to transform your project idea into reality?</h2>
                     <button>Contact Us</button>

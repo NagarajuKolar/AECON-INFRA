@@ -1,7 +1,7 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
 import Epc1 from '../assets/Epc1.png'
-import prebid1 from '../assets/prebid1.png'
+import prebid from '../assets/prebid.png'
 import service from '../assets/service.png'
 function OperationMaintain() {
     return (
@@ -9,7 +9,7 @@ function OperationMaintain() {
             <div className="prebid-page">
                
                 <div className="prebid-banner">
-                    <img src={service2} alt="Operation and Maintenance" />
+                    <img src={prebid} alt="Operation and Maintenance" />
                     <div className="banner-overlay"></div>
                     <div className="banner-text">
                         <h1>Operation & Maintenance (O&M) Services</h1>

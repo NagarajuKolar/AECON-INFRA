@@ -259,10 +259,10 @@ nav {
         padding: 8px;
     }
 
-    .mobile-btn {
+    .enquiry-btn {
         display: block;
         text-align: center;
-        width: 100%;
+        width: 50%;
         padding: 10px 0;
     }
 
@@ -273,8 +273,8 @@ nav {
     opacity: 0;
     visibility: hidden;
     transform: none;
-    background: #f8a4a4;
-    padding-left: 0;
+    background: #f0eaea;
+    padding:0px 50px;
     margin: 0;
     transition: max-height 0.3s ease, opacity 0.3s ease;
     overflow: hidden;
@@ -283,6 +283,10 @@ nav {
     .dropdown-menu li {
         text-align: center;
     }
+        .dropdown-menu li a{
+        padding: 12px 15px;
+    }
+
 }
 
 

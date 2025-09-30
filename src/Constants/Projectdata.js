@@ -2,6 +2,16 @@ import minjur from '../assets/1.png'
 import alandur from '../assets/2.png'
 import maldives from '../assets/3.png'
 import ocean from '../assets/4.png'
+import project4 from '../assets/project4.png'
+import project5 from '../assets/project5.png'
+import project6 from '../assets/project6.png'
+import project7 from '../assets/project7.png'
+import project8 from '../assets/project8.png'
+import project9 from '../assets/project9.png'
+import minjur1 from '../assets/minjur1.png'
+import minjur2 from '../assets/minjur2.png'
+import minjur3 from '../assets/minjur3.png'
+import minjur4 from '../assets/minjur4.png'
 
 const projectsData = [
     {
@@ -13,7 +23,8 @@ const projectsData = [
         image: minjur,
         client: "CMWSSB, Chennai",
         scopeOfWork: "Concept to Commissioning and O&M",
-        currentStatus: "Completed"
+        currentStatus: "Completed",
+        relatedimages:[minjur,minjur1,minjur2,minjur3,minjur4]
     },
     {
         id: 2,
@@ -43,7 +54,7 @@ const projectsData = [
         category: "Water & Wastewater",
         status: "ongoing",
         isMajor: false,
-        image: minjur,
+        image: project4,
         client: "Aurobindo Pharma Ltd, Hyderabad",
         scopeOfWork: "PMC Services for SWRO Desalination Plant",
         currentStatus: "Offshore and Civil works completed, one stream commissioned, balance commissioning in progress"
@@ -54,7 +65,7 @@ const projectsData = [
         category: "Water & Wastewater",
         status: "ongoing",
         isMajor: false,
-        image: alandur,
+        image: project5,
         client: "Transtroy India Ltd, Chennai",
         scopeOfWork: "PMC Services for Water Distribution Network",
         currentStatus: "70% procurement done, 38% construction completed"
@@ -65,7 +76,7 @@ const projectsData = [
         category: "Consultancy & PMC",
         status: "ongoing",
         isMajor: false,
-        image:minjur,
+        image:project6,
         client: "T&T Infra Ltd, Pune",
         scopeOfWork: "Pretender support and Detailed Engineering (Sheet Pile Cofferdam)",
         currentStatus: "65% civil works completed, on schedule"
@@ -76,7 +87,7 @@ const projectsData = [
         category: "Water & Wastewater",
         status: "ongoing",
         isMajor: false,
-        image: minjur,
+        image: project7,
         client: "Gondwana Engineers Ltd, Nagpur",
         scopeOfWork: "Pretender Consultancy for STP Project",
         currentStatus: "Infiltration well blasting work in progress"
@@ -87,7 +98,7 @@ const projectsData = [
         category: "Civil & Industrial Infrastructure",
         status: "ongoing",
         isMajor: false,
-        image: minjur,
+        image:project8 ,
         client: "Gnanam Engg, Chennai",
         scopeOfWork: "Consultancy for STP Civil Works Execution",
         currentStatus: "Site infrastructure and establishment in progress"
@@ -98,7 +109,7 @@ const projectsData = [
         category: "Water & Wastewater",
         status: "ongoing",
         isMajor: false,
-        image: alandur,
+        image: project9,
         client: "Hindustan Coca Cola Beverages",
         scopeOfWork: "Prefeasibility studies for SWRO desal plants",
         currentStatus: "Oceanographic studies and corridor setup in progress"

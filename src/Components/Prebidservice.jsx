@@ -1,6 +1,11 @@
 import React from 'react'
 import '../CSS/prebid.css'
 import prebid1 from '../assets/prebid1.png'
+import prebid2 from '../assets/prebid2.png'
+import prebid3 from '../assets/prebid3.png'
+import prebid4 from '../assets/prebid4.png'
+import prebid5 from '../assets/prebid5.png'
+import prebid6 from '../assets/prebid6.png'
 import service from '../assets/service.png'
 
 function Prebidservice() {
@@ -36,7 +41,7 @@ function Prebidservice() {
           </div>
 
           <div className="prebid-section">
-            <img src={prebid1} alt="Opportunity Identification" />
+            <img src={prebid2} alt="Opportunity Identification" />
             <div>
               <h3>Opportunity Identification & Marketing</h3>
               <p>
@@ -47,7 +52,7 @@ function Prebidservice() {
           </div>
 
           <div className="prebid-section">
-            <img src={prebid1} alt="JV & Partnerships" />
+            <img src={prebid3} alt="JV & Partnerships" />
             <div>
               <h3>JV & Partnership Support</h3>
               <p>
@@ -58,7 +63,7 @@ function Prebidservice() {
           </div>
 
           <div className="prebid-section">
-            <img src={prebid1} alt="Risk Analysis" />
+            <img src={prebid4} alt="Risk Analysis" />
             <div>
               <h3>Project Risk Analysis & Site Studies</h3>
               <p>
@@ -69,7 +74,7 @@ function Prebidservice() {
           </div>
 
           <div className="prebid-section">
-            <img src={prebid1} alt="Costing & Estimation" />
+            <img src={prebid5} alt="Costing & Estimation" />
             <div>
               <h3>Costing & Estimation</h3>
               <p>
@@ -80,7 +85,7 @@ function Prebidservice() {
           </div>
 
           <div className="prebid-section">
-            <img src={prebid1} alt="Pretender Services" />
+            <img src={prebid6} alt="Pretender Services" />
             <div>
               <h3>Pretender Services</h3>
               <p>

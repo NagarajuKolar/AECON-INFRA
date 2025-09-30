@@ -1,13 +1,13 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
+import waterEnv from '../assets/waterEnv.png'
 
 function WaterandEnv() {
   return (
     <>
     <div className="prebid-page">
-    {/* Banner Section */}
     <div className="prebid-banner">
-        <img src={service2} alt="Water and Environment Services" />
+        <img src={waterEnv} alt="Water and Environment Services" />
         <div className="banner-overlay"></div>
         <div className="banner-text">
             <h1>Water & Environment Services</h1>
@@ -17,7 +17,7 @@ function WaterandEnv() {
         </p>
     </div>
 
-    {/* Content Section */}
+
     <div className="prebid-content">
         <h2>Our Offerings</h2>
         <h4>

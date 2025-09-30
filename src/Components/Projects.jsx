@@ -35,23 +35,23 @@ function Projects() {
                         <div className="project-card" key={project.id}>
                             <img src={project.image} alt={project.category} className="project-img" />
                             {filter === "all" && (
-                                <span className={`project-badge ${project.isMajor? "major"
-                                            : project.status === "ongoing"
-                                                ? "ongoing"
-                                                : "completed"
-                                        }`}>
+                                <span className={`project-badge ${project.isMajor ? "major"
+                                    : project.status === "ongoing"
+                                        ? "ongoing"
+                                        : "completed"
+                                    }`}>
                                     {project.isMajor
                                         ? "Major"
                                         : project.status.charAt(0).toUpperCase() + project.status.slice(1)}
-                                        {/* <FaStar/> */}
+                                    {/* <FaStar/> */}
                                 </span>
                             )}
                             <div className="project-info">
                                 <h4 className="project-name">{project.name}</h4>
                                 <p className="project-category">{project.category}</p>
                             </div>
-                            <div className="view-project">
-                                <Link to={`/projects/${project.id}`}>View Project </Link>
+                            <div className="cat-view-project">
+                                <Link to={`/projects/${project.id}`}>View Project</Link>
                             </div>
                         </div>
                     ))}
