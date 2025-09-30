@@ -1,6 +1,6 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
-import Epc1 from '../assets/Epc1.png'
+import Epc1 from '../assets/epc1.png'
 import prebid from '../assets/prebid.png'
 import service from '../assets/service.png'
 function OperationMaintain() {
