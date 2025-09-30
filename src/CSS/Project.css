@@ -1,0 +1,130 @@
+.projects-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #7e7b7b8f;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.filter-buttons button:hover {
+  background-color: #ddd;
+}
+
+.filter-buttons .active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+    position: relative; 
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.project-badge.major {
+    background-color: #ff5733;
+}
+
+.project-badge.ongoing {
+    background-color: #007bff; 
+}
+
+.project-badge.completed {
+    background-color: #28a745; 
+}
+
+
+.project-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 10px;
+}
+
+.project-name {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.project-category {
+  font-size: 16px;
+  color: #777;
+}
+.view-project {
+  margin: 10px;
+  text-align: center;
+}
+
+.view-project a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.view-project a:hover {
+  color: green;
+}
+
+@media (max-width: 575px) {
+  .filter-buttons {
+  gap: 10px;;
+}
+
+.filter-buttons button {
+  padding: 8px 15px;
+
+  font-size: 14px;
+}
+}

@@ -1,0 +1,41 @@
+.viewproject-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.viewproject-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.viewproject-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.viewproject-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.viewproject-details {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.viewproject-details p {
+  margin: 8px 0;
+}
+
+.viewproject-details strong {
+  color: #2c7a7b;
+}
