@@ -1,7 +1,6 @@
 import React from 'react'
 import service2 from '../assets/service2.1.png'
 import Epc from '../assets/Epc.png'
-import Epc1 from '../assets/epc1.png'
 import Epc2 from '../assets/epc2.png'
 import Epc3 from '../assets/epc3.png'
 import Epc4 from '../assets/epc4.png'
@@ -28,7 +27,7 @@ function Epcservice() {
                     <h4>At AECON Infra Solutions, we offer end-to-end project execution and EPC solutions. From detailed engineering to construction, marine works, and commissioning, our services ensure that projects are delivered on time, within budget, and to the highest quality standards.</h4>
 
                     <div className="prebid-section">
-                        <img src={Epc1} alt="Feasibility Studies" />
+                        <img src={Epc} alt="Feasibility Studies" />
                         <div>
                             <h3>Engineering & Design</h3>
                             <p>
