@@ -77,7 +77,7 @@ function Navbar() {
                             <li className="dropdown"
                                 onMouseEnter={() => setServicesOpen(true)}
                                 onMouseLeave={() => setServicesOpen(false)}>
-                                <NavLink to="/services" className={({ isActive }) => isActive ? "active-link" : ""}>
+                                <NavLink to="#" className={({ isActive }) => isActive ? "active-link" : ""}>
                                     Services
                                 </NavLink>
                                 <ul className={`dropdown-menu ${servicesOpen ? "show" : ""}`}>
@@ -99,7 +99,7 @@ function Navbar() {
 
 
                         <div className="navbar-button desktop-btn">
-                            <Link to="/enquiry" className="enquiry-btn">ENQUIRY NOW</Link>
+                            <Link to="/contact" className="enquiry-btn">ENQUIRY NOW</Link>
                         </div>
 
                     </div>

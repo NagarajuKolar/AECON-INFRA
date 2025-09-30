@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 import { IoCubeSharp } from "react-icons/io5";
 import { FaEye } from "react-icons/fa";
 import { FaAward } from "react-icons/fa6";
+import { IoWaterSharp } from "react-icons/io5";
+import { GiSubmarine } from "react-icons/gi";
+import { FaWater, FaIndustry, FaSolarPanel, FaProjectDiagram, FaRecycle } from 'react-icons/fa';
 
 function Aboutus() {
   const aboutData = [
@@ -121,6 +124,32 @@ function Aboutus() {
             cost optimization, and timely project delivery. Whether it’s feasibility studies, turnkey execution, or post-commissioning support,
             AECON Infra Solutions brings precision, reliability, and a future-focused approach to every assignment</p>
         </div>
+      </div>
+
+      <div className="industryweserve">
+        <h2>Industries & Assets We Serve</h2>
+        <ul className="industries-list">
+          <li>
+            <IoWaterSharp className="industry-icon" />
+            Water & Wastewater Treatment Plants (STP, ETP, RO, ZLD)
+          </li>
+          <li>
+            <GiSubmarine className="industry-icon" />
+            Desalination Plants & Marine Infrastructure
+          </li>
+          <li>
+            <FaIndustry className="industry-icon" />
+            Industrial Utilities & Power Plants
+          </li>
+          <li>
+            <FaProjectDiagram className="industry-icon" />
+            Pipelines and Distribution Networks
+          </li>
+          <li>
+            <FaRecycle className="industry-icon" />
+            Specialized Civil & Environmental Projects
+          </li>
+        </ul>
       </div>
 
     </>

@@ -18,23 +18,26 @@ function Footer() {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About Us</Link></li>
                                 <li><Link to="/contact">Contact Us</Link></li>
+                                <li><Link to="/sectors">Sectors & Industries</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h3>OUR PROJECTS</h3>
                             <ul>
-                                <li><Link to="/products/wtp">Water Treatment Plant (WTP)</Link></li>
+                                <li><Link to="/projects/category/water">Water & Wastewater</Link></li>
+                                <li><Link to="/projects/category/marine">Marine Works</Link></li>
+                                <li><Link to="/projects/category/civil">Civil & Industrial Infrastructure</Link></li>
+                                <li><Link to="/projects/category/consultancy">Consultancy & PMC</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h3>OUR SERVICES</h3>
                             <ul>
-                                <li><Link to="/services/consultancy">Consultancy Service</Link></li>
-                                <li><Link to="/services/om">O&M</Link></li>
-                                <li><Link to="/services/amc">Prebid service</Link></li>
-                                <li><Link to="/services/repair">Contract Execution service</Link></li>
-                                <li><Link to="/services/extension">Post-commissioning service</Link></li>
-                                <li><Link to="/services/installation">Plant Installation Work</Link></li>
+                                <li><Link to="/services/prebid">Consultancy & Pre-Bid Services</Link></li>
+                                <li><Link to="/services/epc">Project Execution & EPC</Link></li>
+                                <li><Link  to="/services/O&M">Operation & Maintenance(O&M)</Link></li>
+                                <li><Link to="/services/water&environment">Water & Environment Services</Link></li>
+                                <li><Link to="/services/energy&industry">Energy & Industrial Services</Link></li>
                             </ul>
                         </div>
 
@@ -49,7 +52,7 @@ function Footer() {
                     <div className="footer-bottom">
                         <p>
                             Copyright © Aecon Infra. All Rights Reserved. Website Designed By :
-                            <Link to="#"> Web Designer Hyderabad</Link>
+                            <Link to="#"> Nagaraju Kolar Hyderabad</Link>
                         </p>
                     </div>
 
