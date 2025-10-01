@@ -29,7 +29,6 @@ function Home() {
             headline: "Turning Blueprints into Reality with Precision & Efficiency"
         },
     ];
-
     const [currentSlide, setCurrentSlide] = useState(0);
     const [showrelatedimages, setshowrelatedimages] = useState(false)
     const [activeSector, setActiveSector] = useState(null);
@@ -84,18 +83,33 @@ function Home() {
 
     const servicesData = [
         {
-            title: "Pre-Bid Services",
-            description: "We support clients from the opportunity stage, ensuring a strong foundation for project success."
+            title: "Consultancy & Pre-Bid Services",
+            description: "We support clients from the opportunity stage, ensuring a strong foundation for project success.",
+            link:'prebid' ,
         },
         {
-            title: "Contract Execution Services",
-            description: "Comprehensive project management solutions as turnkey or modular services."
+            title: "Project Execution & EPC Services",
+            description: "Comprehensive project management solutions as turnkey or modular services.",
+            link: 'epc',
         },
         {
             title: "Post-Commissioning & O&M Services",
-            description: "Ensuring smooth transition into commercial operations and long-term support."
-        }
+            description: "Ensuring smooth transition into commercial operations and long-term support.",
+            link: 'O&M'
+        },
+        {
+            title: " Water & Environment Services",
+            description: "Sustainable solutions for water, environment, and future generations",
+            link: 'water & environment',
+        },
+        {
+            title: "Energy & Industrial Services",
+            description: "Driving efficiency, sustainability, and innovation in energy & industry",
+            link: 'energy & industry',
+        },
+
     ];
+
 
     const sectors = [
         {
@@ -106,7 +120,7 @@ function Home() {
         {
             title: 'Marine Works',
             image: marine,
-            relatedimages: [water1,maldives]
+            relatedimages: [water1, maldives]
         },
         {
             title: 'Civil Works',
@@ -173,14 +187,16 @@ function Home() {
                             <h2>{service.title}</h2>
                             <p>{service.description}</p>
                             <div className="overlay">
-                                <button className="view-btn">View service</button>
+                                <Link to={`/services/${service.link}`}>
+                                    <button className="view-btn">View Service</button>
+                                </Link>
                             </div>
                         </div>
                     ))}
                 </div>
 
             </div>
- 
+
             <div className="sectors">
                 <h1>Sectors</h1>
                 <div className="sector-container">
