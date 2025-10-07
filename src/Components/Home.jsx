@@ -85,7 +85,7 @@ function Home() {
         {
             title: "Consultancy & Pre-Bid Services",
             description: "We support clients from the opportunity stage, ensuring a strong foundation for project success.",
-            link:'prebid' ,
+            link: 'prebid',
         },
         {
             title: "Project Execution & EPC Services",
@@ -282,6 +282,7 @@ function Home() {
                     allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
+
 
 
 

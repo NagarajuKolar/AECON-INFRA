@@ -152,6 +152,11 @@ function Aboutus() {
         </ul>
       </div>
 
+      <section className="sectors-cta">
+        <h2>Looking to transform your project idea into reality?</h2>
+        <button>Contact Us</button>
+      </section>
+
     </>
   )
 }
